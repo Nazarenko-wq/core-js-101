@@ -30,6 +30,17 @@
  */
 function willYouMarryMe(/* isPositiveAnswer */) {
   throw new Error('Not implemented');
+  // const promise = new Promise((resolve, reject) => {
+  //   if (isPositiveAnswer === true) {
+  //     resolve('Hooray!!! She said "Yes"!');
+  //   } else if (isPositiveAnswer === false) {
+  //     resolve('Oh no, she said "No".');
+  //   } else if (typeof isPositiveAnswer !== 'boolean') {
+  //     reject(new Error('Wrong parameter is passed! Ask her again.'));
+  //   }
+  // });
+
+  // return promise.then((value) => value).catch((value) => value);
 }
 
 
